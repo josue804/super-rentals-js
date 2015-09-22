@@ -1,3 +1,13 @@
-{{outlet}}
+<h1 class="btn">Welcome to Hoes and Hoses</h1>
 
-<h1>Welcome to Hoes and Hoses</h1>
+<ul>
+  {{#each model as |rental|}}
+    {{rental-tile hoesAndHose=rental destroyRental="destroyRental"}}
+  {{/each}}
+</ul>
+
+
+{{new-rental save2="save3"}}
+
+{{#link-to 'about'}}About{{/link-to}}<br>
+{{#link-to 'contact'}}Contact Us{{/link-to}}

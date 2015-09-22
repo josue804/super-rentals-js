@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'j-and-r-rentals',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    firebase: 'https://hoes-and-hoses.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
