@@ -1,0 +1,20 @@
+{ "hoesAndHoses": [{
+    "type": "Hose",
+    "length": "5 Feet",
+    "color": "Ebony",
+    "age": "22",
+    "image": "http://cdn3.bigcommerce.com/s-v3vf90o/products/481/images/2195/Brown_Water_Hose_05.1__31176.1432142061.1280.1280.JPG?c=2"
+  }, {
+    "type": "Hoe",
+    "length": "4 feet 11 inches",
+    "color": "brown",
+    "age": "47",
+    "image": "http://2.bp.blogspot.com/-dyQQlX9uH_U/UI5D-Wk_Q7I/AAAAAAAACNU/sfCqud8Bm4I/s1600/old+Pa+Murphy's+old+hoe.jpg"
+  }, {
+    "type": "Hose",
+    "length": "Varies",
+    "color": "choose your own",
+    "age": "25",
+    "image": "http://bestplants.com/wp-content/uploads/2014/04/garden-hose-flowers-043014.jpg"
+  }]
+}

@@ -1,0 +1,10 @@
+{{yield}}
+
+<li>This {{hoesAndHose.type}} is {{hoesAndHose.length}}, {{hoesAndHose.color}}, and {{hoesAndHose.age}}
+  {{#if isImageShowing }}
+    <p><img {{action "imageHide"}} height="250px" width="250px" src={{hoesAndHose.image}} alt={{hoesAndHose.type}}></p>
+  {{else}}
+    <button class="btn btn-xs btn-primary" {{action 'imageShow'}}>Show Image</button>
+    <button class="btn btn-xs btn-primary" {{action 'delete' hoesAndHose}}>Remove</button>
+  {{/if}}
+</li>
